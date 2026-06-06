@@ -1,0 +1,13 @@
+[package]
+name = "openmind-mirror"
+version = "0.1.0"
+edition = "2021"
+description = "Self-reflection and coherence checking for agent muscle memory — metacognition for AI agents"
+license = "MIT"
+repository = "https://github.com/SuperInstance/openmind-mirror"
+keywords = ["ai", "agent", "metacognition", "muscle-memory", "self-reflection"]
+categories = ["development-tools", "science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
